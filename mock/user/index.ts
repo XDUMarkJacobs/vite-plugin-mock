@@ -6,3 +6,12 @@ export function get () {
         }
     ];
 }
+
+export function post () {
+    return [
+        {
+            id: 1,
+            name: 'zza'
+        }
+    ];
+}

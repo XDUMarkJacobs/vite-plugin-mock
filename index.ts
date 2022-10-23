@@ -1,6 +1,6 @@
 
 
-fetch( '/user/1?name1=123', {
+fetch( '/user?name1=123', {
     method: 'post',
     headers: {
         "Content-type": "application/json; charset=UTF-8"

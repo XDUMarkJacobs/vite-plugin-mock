@@ -44,6 +44,7 @@ export const useMiddleware = ( { prefix, dir, timeout }: Required<MockConfig> ):
     return async ( req, res, next ) => {
         // @ts-ignore
         const { originalUrl, method, body } = req;
+        console.log( "body", body );
         const functionName = method?.toLocaleLowerCase() || method?.toLocaleUpperCase() || 'get';
         const mockDirPath = resolve( process.cwd(), dir );
 

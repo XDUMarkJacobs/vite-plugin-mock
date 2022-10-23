@@ -10,6 +10,7 @@ specifiers:
   connect: ^3.7.0
   qs: ^6.11.0
   ramda: ^0.28.0
+  rxjs: ^7.5.7
   ts-node: ^10.9.1
   typescript: ^4.8.4
   vite: ^3.1.8
@@ -24,6 +25,7 @@ dependencies:
   connect: 3.7.0
   qs: 6.11.0
   ramda: 0.28.0
+  rxjs: 7.5.7
   ts-node: 10.9.1_lw7q66ikwuedwcorwkk4v6trsa
   typescript: 4.8.4
   vite: 3.1.8
@@ -615,6 +617,12 @@ packages:
       fsevents: 2.3.2
     dev: false
 
+  /rxjs/7.5.7:
+    resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
+    dependencies:
+      tslib: 2.4.0
+    dev: false
+
   /safer-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
@@ -689,6 +697,10 @@ packages:
 
   /ts-toolbelt/6.15.5:
     resolution: {integrity: sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==}
+    dev: false
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: false
 
   /type-is/1.6.18:
